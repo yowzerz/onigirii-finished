@@ -40,7 +40,7 @@ const player = new Fighter({
     x: 0,
     y: 0
   },
-  imageSrc: './img/Ronin/Sprites/Idle.png',
+  imageSrc: './img/Ronin/Sprites/idle.png',
   framesMax: 8,
   scale: 2.5,
   offset: {
@@ -49,7 +49,7 @@ const player = new Fighter({
   },
   sprites: {
     idle: {
-        imageSrc: './img/Ronin/Sprites/Idle.png',
+        imageSrc: './img/Ronin/Sprites/idle.png',
         framesMax: 8 
     },
     run: {
