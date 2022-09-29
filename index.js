@@ -40,7 +40,7 @@ const player = new Fighter({
     x: 0,
     y: 0
   },
-  imageSrc: './img/Ronin/Sprites/idle.png',
+  imageSrc: './img/Ronin/Sprites/Idle.png',
   framesMax: 8,
   scale: 2.5,
   offset: {
@@ -49,7 +49,7 @@ const player = new Fighter({
   },
   sprites: {
     idle: {
-        imageSrc: './img/Ronin/Sprites/idle.png',
+        imageSrc: './img/Ronin/Sprites/Idle.png',
         framesMax: 8 
     },
     run: {
@@ -105,7 +105,7 @@ const enemy = new Fighter({
     x: -50,
     y: 0
   },
-  imageSrc: './img/Onigirii/Sprites/idle.png',
+  imageSrc: './img/Onigirii/Sprites/Idle.png',
   framesMax: 4,
   scale: 2.5,
   offset: {
@@ -115,7 +115,7 @@ const enemy = new Fighter({
   
   sprites: {
     idle: {
-        imageSrc: './img/Onigirii/Sprites/idle.png',
+        imageSrc: './img/Onigirii/Sprites/Idle.png',
         framesMax: 4 
     },
     run: {
